@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
 
+	<title>#ram234        </title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5421528372947744",
+    enable_page_level_ads: true
+  });
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adsone -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5421528372947744"
+     data-ad-slot="9861205710"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adstwo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5421528372947744"
+     data-ad-slot="9861205710"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7767837887268585",
+    enable_page_level_ads: true
+  });
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5421528372947744",
+    enable_page_level_ads: true
+  });
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adstwo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5421528372947744"
+     data-ad-slot="9861205710"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5421528372947744",
+    enable_page_level_ads: true
+  });
+</script>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '187132274637422',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+	FB.getloginStatus(function(response){
+	     if (response.status === 'connected'){
+	     document.getElementById('status').innerHTML = 'berhasil.';	
+	     }else if (response.status === 'not connected.'){
+	     document.getElementById('status').innerHTML = 'tidak berhasil';
+	     }else{
+	     document.getElementById('status').innerHTML = 'tidak konek ke facebook.';
+	}
+	});
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+   
+   function login(){
+    FB.login(function(response){
+	if (response.status === 'connected'){
+	     document.getElementById('status').innerHTML = 'berhasil.';	
+	     }else if (response.status === 'not connected.'){
+	     document.getElementById('status').innerHTML = 'tidak berhasil';
+	     }else{
+	     document.getElementById('status').innerHTML = 'tidak konek ke facebook.';
+	});
+   }
+   
+</script>
+<div id="status"></div>
+<button onClick="login()">login</button>
+
+
+</body>
+</html>
