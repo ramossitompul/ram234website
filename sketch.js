@@ -18,7 +18,7 @@ function setup() {
   sliderRate = createSlider(0,5,1,0.01);
   sliderPan = createSlider(-1,1,0,0.01);
   amp = new p5.Amplitude();
-  loadJSON =('https://openexchangerates.org/api/latest.json?app_id=80eb8dfbbeda4922a623be944cc1de0c');
+  loadJSON =('https://openexchangerates.org/api/latest.json?app_id=80eb8dfbbeda4922a623be944cc1de0c',gotData);
   
 }
 
