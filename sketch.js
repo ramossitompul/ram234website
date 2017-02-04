@@ -11,14 +11,14 @@ var volhistory = [];
 //function preload(){	song = loadSound("Faded.mp3",loaded);}
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(600, 600);
   song = loadSound("st.mp3", loaded);
   angleMode(DEGREES);
   sliderVolume = createSlider(0,1,0.5,0,01);
   sliderRate = createSlider(0,5,1,0.01);
   sliderPan = createSlider(-1,1,0,0.01);
   amp = new p5.Amplitude();
-  loadJSON =('https://openexchangerates.org/api/latest.json?app_id=80eb8dfbbeda4922a623be944cc1de0c',gotData);
+  //loadJSON =('https://openexchangerates.org/api/latest.json?app_id=80eb8dfbbeda4922a623be944cc1de0c');
   
 }
 
