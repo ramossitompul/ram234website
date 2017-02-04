@@ -11,7 +11,7 @@ var volhistory = [];
 //function preload(){	song = loadSound("Faded.mp3",loaded);}
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(200, 200);
   song = loadSound("st.mp3", loaded);
   angleMode(DEGREES);
   sliderVolume = createSlider(0,1,0.5,0,01);
